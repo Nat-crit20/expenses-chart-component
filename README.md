@@ -97,7 +97,7 @@ Use this section to outline areas that you want to continue focusing on in futur
 ### Useful resources
 
 - [Free Code Camp](https://www.freecodecamp.org/news/how-to-read-json-file-in-javascript/) -This helped me in understanding why my json data file was not loading because of the CORS error.
-- [Example resource 2](https://www.example.com) - This is an amazing article which helped me finally understand XYZ. I'd recommend it to anyone still learning this concept.
+- [Char css](https://chartscss.org/charts/bar/) - this helped me tremendously in creating my graphs
 
 **Note: Delete this note and replace the list above with resources that helped you during the challenge. These could come in handy for anyone viewing your solution or for yourself when you look back on this project in the future.**
 

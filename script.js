@@ -1,18 +1,26 @@
 const tbody = document.querySelector("tbody");
 
 let date = new Date();
+let weekDays = ["sun", "mon", "tue", "wed", "thu", "fri", "sat"];
+let day = weekDays[date.getDay()];
 
-let day = date.getDay();
 const loadData = async function () {
   let result = await fetch("./data.json").then((response) => response.json());
 
-  return result.forEach((element, i) => {
+  return result.forEach((element) => {
     let tr = document.createElement("tr");
-    //let td = document.createElement('td')
-    if (i === day) {
-      console.log(element.amount, element.day);
+    let color;
+
+    if (element.day === day) {
+      color = `hsl(186, 34%, 60%)`;
+    } else {
+      color = `hsl(10, 79%, 65%)`;
     }
-    tr.innerHTML = `<td style="--size: calc(${element.amount} / 50)">${element.amount}</td>`;
+
+    let input = `<td style="--size: calc(${element.amount} / 50); --color: ${color};">${element.amount}</td>
+    <th scope="row"> ${element.day} </th>`;
+
+    tr.innerHTML = input;
     tbody.appendChild(tr);
   });
 };
