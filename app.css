@@ -1,0 +1,13 @@
+#my-chart.column {
+  height: 200px;
+  max-width: 300px;
+  margin: 0 auto;
+}
+
+#my-chart.column {
+  --labels-size: 3rem;
+}
+
+#my-chart td {
+  background-color: brown;
+}
