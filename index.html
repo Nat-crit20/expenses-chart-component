@@ -4,7 +4,9 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <!-- displays site properly based on user's device -->
-
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;700&display=swap" rel="stylesheet">
     <link
       rel="icon"
       type="image/png"
@@ -32,14 +34,41 @@
     </style>
   </head>
   <body>
-    My balance $921.48 Spending - Last 7 days mon tue wed thu fri sat sun Total
-    this month $478.33 +2.4% from last month
 
-    <ul class="bar"></ul>
+    <main>
+      <header>
+        <div>
+          <p>My balance</p>
+          <h2 class="balance">$921.48</h2>
+        </div>
+        <img src="./images/logo.svg" alt="">
+      </header>
+      <article>
+        <h3>Sending - Last 7 days</h3>
+        <table class="charts-css column show-labels data-spacing-3"" id="my-chart">
+          <tbody>
+            
+          </tbody>
+        </table>
+        
+        <br>
 
-    <table class="charts-css column show-labels data-spacing-3"" id="my-chart">
-      <tbody></tbody>
-    </table>
+        <section>
+          <div>
+            <p>Total this month</p>
+            <h2>$478.33</h2>
+          </div>
+          <div>
+            <p><strong>+2.4%</strong></p>
+            <p>from last month</p>
+          </div>
+        </section>
+      </article>
+    </main>
+
+    
+
+    
     <div class="attribution">
       Challenge by
       <a href="https://www.frontendmentor.io?ref=challenge" target="_blank"

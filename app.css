@@ -1,3 +1,47 @@
+body {
+  background-color: hsl(27, 66%, 92%);
+  font-family: "DM Sans", sans-serif;
+}
+main {
+  margin-top: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+header {
+  background-color: hsl(10, 79%, 65%);
+  color: white;
+  width: 360px;
+  height: 2.5rem;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 1rem;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+header p {
+  font-size: 14px;
+  font-weight: 400;
+  margin: 0 0 5px 0;
+}
+header h2 {
+  font-size: 1.5rem;
+  font-weight: 700;
+  margin: 0;
+}
+header img {
+  height: 75%;
+}
+article {
+  background-color: white;
+  width: 360px;
+  border-radius: 1rem;
+  padding: 1rem;
+}
+
 #my-chart.column {
   height: 200px;
   max-width: 375px;
@@ -9,4 +53,10 @@
 }
 #my-chart td {
   border-radius: 10%;
+  cursor: pointer;
+}
+section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
 }

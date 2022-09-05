@@ -17,8 +17,11 @@ const loadData = async function () {
       color = `hsl(10, 79%, 65%)`;
     }
 
-    let input = `<td style="--size: calc(${element.amount} / 50); --color: ${color};">${element.amount}</td>
-    <th scope="row"> ${element.day} </th>`;
+    let input = ` 
+   
+    <td style="--size: calc(${element.amount} / 60); --color: ${color};"></td>
+    <th scope="row"> ${element.day} </th>
+    `;
 
     tr.innerHTML = input;
     tbody.appendChild(tr);
