@@ -14,9 +14,6 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
   - [Continued development](#continued-development)
   - [Useful resources](#useful-resources)
 - [Author](#author)
-- [Acknowledgments](#acknowledgments)
-
-**Note: Delete this note and update the table of contents based on what sections you keep.**
 
 ## Overview
 
@@ -36,8 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [https://val7997.github.io/expenses-chart-component/](https://val7997.github.io/expenses-chart-component/)
 
 ## My process
 
@@ -50,7 +46,7 @@ Users should be able to:
 
 ### What I learned
 
-For this project I learned async javascript and chart css.
+For this project I learned async javascript and chart css. I also strengthened my understanging of flex box and DOM manipulation.
 
 ### Continued development
 
@@ -63,4 +59,4 @@ I would like to continue to learn asyc javascript
 
 ## Author
 
-- Frontend Mentor - [@yourusername](https://www.frontendmentor.io/profile/yourusername)
+- Val7997 - [@Val7997](https://www.frontendmentor.io/profile/Val7997)
