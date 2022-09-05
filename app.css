@@ -12,7 +12,7 @@ main {
 header {
   background-color: hsl(10, 79%, 65%);
   color: white;
-  width: 360px;
+  width: 300px;
   height: 2.5rem;
   display: flex;
   flex-direction: row;
@@ -20,10 +20,11 @@ header {
   align-items: center;
   margin-bottom: 1rem;
   border-radius: 1rem;
-  padding: 1rem;
+  padding: 1.5rem 1rem;
 }
 header p {
-  font-size: 14px;
+  color: hsl(33, 100%, 98%);
+  font-size: 12px;
   font-weight: 400;
   margin: 0 0 5px 0;
 }
@@ -37,9 +38,14 @@ header img {
 }
 article {
   background-color: white;
-  width: 360px;
+  width: 300px;
   border-radius: 1rem;
   padding: 1rem;
+}
+
+article h2 {
+  color: hsl(25, 47%, 15%);
+  margin: 0 0 2rem 0;
 }
 
 #my-chart.column {
@@ -55,15 +61,18 @@ article {
   border-radius: 10%;
   cursor: pointer;
 }
+td:hover {
+  opacity: 50%;
+}
 .tooltip {
   visibility: hidden;
   position: absolute;
   z-index: 1;
   height: 2rem;
-  width: 100px;
+  width: 120px;
   color: white;
   font-size: 12px;
-  background-color: #192733;
+  background-color: black;
   border-radius: 10px;
   padding: 10px 15px 10px 15px;
   top: -40px;
@@ -71,7 +80,27 @@ article {
 }
 
 section {
+  color: hsl(25, 47%, 15%);
+  padding: 1rem 1rem 0.5rem 1rem;
+  border-top: 1px solid hsl(27, 66%, 92%);
   display: flex;
   flex-direction: row;
   justify-content: space-between;
+  align-items: flex-end;
+}
+section p {
+  font-size: 12px;
+  margin: 0;
+}
+.spent p {
+  text-align: end;
+}
+.total p {
+  text-align: start;
+}
+
+section h2 {
+  font-size: 2rem;
+  font-weight: 700;
+  margin: 0;
 }
