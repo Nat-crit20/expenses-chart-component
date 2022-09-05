@@ -18,8 +18,7 @@ const loadData = async function () {
     }
 
     let input = ` 
-   
-    <td style="--size: calc(${element.amount} / 60); --color: ${color};"></td>
+    <td style="--size: calc(${element.amount} / 60); --color: ${color};"> <span class="tooltip"> ${element.amount} </span> </td>
     <th scope="row"> ${element.day} </th>
     `;
 
