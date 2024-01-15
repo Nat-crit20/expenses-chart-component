@@ -22,7 +22,7 @@ This is a solution to the [Expenses chart component challenge on Frontend Mentor
 Users should be able to:
 
 - View the bar chart and hover over the individual bars to see the correct amounts for each day
-- See the current day’s bar highlighted in a different colour to the other bars
+- See the current day’s bar highlighted in a different color to the other bars
 - View the optimal layout for the content depending on their device’s screen size
 - See hover states for all interactive elements on the page
 - **Bonus**: Use the JSON data file provided to dynamically size the bars on the chart
@@ -33,7 +33,7 @@ Users should be able to:
 
 ### Links
 
-- Live Site URL: [https://val7997.github.io/expenses-chart-component/](https://val7997.github.io/expenses-chart-component/)
+- Live Site URL: [https://Nat-crit20.github.io/expenses-chart-component/](https://Nat-crit20.github.io/expenses-chart-component/)
 
 ## My process
 
@@ -46,17 +46,17 @@ Users should be able to:
 
 ### What I learned
 
-For this project I learned async javascript and chart css. I also strengthened my understanging of flex box and DOM manipulation.
+For this project, I learned async javascript and chart CSS. I also strengthened my understanding of flexbox and DOM manipulation.
 
 ### Continued development
 
-I would like to continue to learn asyc javascript
+I would like to continue to learn async javascript
 
 ### Useful resources
 
-- [Free Code Camp](https://www.freecodecamp.org/news/how-to-read-json-file-in-javascript/) -This helped me in understanding why my json data file was not loading because of the CORS error.
+- [Free Code Camp](https://www.freecodecamp.org/news/how-to-read-json-file-in-javascript/) -This helped me in understanding why my JSON data file was not loading because of the CORS error.
 - [Char css](https://chartscss.org/charts/bar/) - this helped me tremendously in creating my graphs
 
 ## Author
 
-- Val7997 - [@Val7997](https://www.frontendmentor.io/profile/Val7997)
+- Frontend mentor - [@Nat-crit20](https://www.frontendmentor.io/profile/Nat-crit20)
